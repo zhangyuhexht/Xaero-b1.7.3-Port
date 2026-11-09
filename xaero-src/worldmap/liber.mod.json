@@ -1,0 +1,12 @@
+{
+  "id": "xaero-world-map",
+  "version": "1.4.6",
+  "name": "Xaero世界地图 (b1.7.3移植)",
+  "description": "Beta 1.7.3 移植版世界地图：全屏浏览已探索区域、拖拽平移、滚轮缩放、区块网格、路径点标记，瓦片自动保存到 xaero/worldmap。按 M 打开（由 xaero-minimap 提供）。",
+  "authors": ["liber port"],
+  "entrypoints": {
+    "main": ["XaeroWorldMapMod"],
+    "client": ["XaeroWorldMapMod"]
+  },
+  "depends": ["liber-api", "xaero-minimap"]
+}

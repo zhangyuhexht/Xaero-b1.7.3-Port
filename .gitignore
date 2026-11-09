@@ -1,0 +1,28 @@
+# 游戏本体 / 测试环境 / 整合包（含 Mojang 版权文件，不入库）
+testenv/
+Minecraft-b1.7.3-Xaero/
+modpacks/
+旧版本/
+versions/liber/liber.jar
+versions/liber/liber-natives/
+versions/liber/natives/
+versions/liber/resources/
+versions/liber/stats/
+versions/liber/options.txt
+
+# liber 附带的示例/无关模组
+versions/liber/mods/example-mod-*.jar
+versions/liber/mods/liber-stats-cn-*.jar
+versions/liber/mods/liber-ui-*.jar
+
+# 构建产物
+*.class
+build/
+out/
+bin/
+
+# 日志 / 临时文件
+*.log
+*.tlog
+desktop.ini
+Thumbs.db

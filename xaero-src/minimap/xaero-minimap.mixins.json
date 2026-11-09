@@ -1,0 +1,9 @@
+{
+  "package": "",
+  "priority": 1000,
+  "mixins": [],
+  "client": [
+    "XaeroHudMixin"
+  ],
+  "server": []
+}

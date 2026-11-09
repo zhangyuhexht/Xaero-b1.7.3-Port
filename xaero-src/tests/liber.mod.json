@@ -1,0 +1,12 @@
+{
+  "id": "xaero-auto-test",
+  "version": "1.0.0",
+  "name": "Xaero Auto Test Driver",
+  "description": "Temporary E2E test driver - not for production use",
+  "authors": ["test"],
+  "entrypoints": {
+    "main": ["XaeroAutoTestMod"],
+    "client": ["XaeroAutoTestMod"]
+  },
+  "depends": ["liber-api", "xaero-minimap", "xaero-world-map"]
+}

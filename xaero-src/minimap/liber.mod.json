@@ -1,0 +1,13 @@
+{
+  "id": "xaero-minimap",
+  "version": "1.4.6",
+  "name": "Xaero小地图 (b1.7.3移植)",
+  "description": "Beta 1.7.3 移植版小地图：方形地图、生物标记、路径点、滚轮缩放、放大模式。按 M 打开世界地图（需安装 xaero-world-map）。",
+  "authors": ["liber port"],
+  "entrypoints": {
+    "main": ["XaeroMinimapMod"],
+    "client": ["XaeroMinimapMod"]
+  },
+  "mixins": ["xaero-minimap.mixins.json"],
+  "depends": ["liber-api"]
+}
